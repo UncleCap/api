@@ -22,7 +22,7 @@
 
 #### 排版
 
-    black -l 80 api/
+    black -l 80 src/
 
 # API
 
