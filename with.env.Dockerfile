@@ -12,7 +12,7 @@ RUN pip install pipenv==2022.4.8
 # 建立工作目錄 /api
 RUN mkdir /api
 
-# 將當前目錄（與 Dockerfile 同層）所有內容複製到容器的 /crawler 資料夾
+# 將當前目錄（與 Dockerfile 同層）所有內容複製到容器的 /api 資料夾
 COPY ./src /api/src
 COPY ./setup.py /api
 COPY ./genenv.py /api
